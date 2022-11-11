@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
             .get()
             .addOnSuccessListener { query ->
                 for (doc in query) {
-                    Log.i("DATA","Documento con ID: ${doc.id} => ${doc.data}")
+                    Log.i("DATA","ID: ${doc.id} => ${doc.data}")
                 }
             }
             .addOnFailureListener { e ->
