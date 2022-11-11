@@ -5,6 +5,8 @@ import android.os.Bundle
 import android.util.Log
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
+import pe.cibertec.firebase_clase11.model.Persona
+import pe.cibertec.firebase_clase11.network.PersonaDataSource
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -13,8 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         val db = Firebase.firestore
 
-        val collectionName = "Personas"
-
+/*
         // LEER
         db.collection(collectionName)
             .get()
@@ -26,6 +27,7 @@ class MainActivity : AppCompatActivity() {
             .addOnFailureListener { e ->
                 Log.e("ERROR","No se pudo leer $e")
             }
+*/
 /*
         // INSERTAR
         val persona = hashMapOf(
