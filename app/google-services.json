@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "532741904227",
+    "project_id": "proyecto-dam1-clase-11",
+    "storage_bucket": "proyecto-dam1-clase-11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532741904227:android:5b363f5cbddbcf4fce2556",
+        "android_client_info": {
+          "package_name": "pe.cibertec.firebase_clase11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532741904227-53c2457jaf8sp5qif0jc6l6863dvlq43.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9VLpd4bES19vb2ydKzP_nYTNjERxUhck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532741904227-53c2457jaf8sp5qif0jc6l6863dvlq43.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
